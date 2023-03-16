@@ -1,0 +1,307 @@
+:root {
+	/* Colors*/
+	--primary-color: #ffffd0;
+	--primary-btn-color: #005b4b;
+	--text-color: #202020;
+	--secondary-text-color: #a00037;
+
+	/* Fonts*/
+	--text-poppins: "Poppins", sans-serif;
+}
+
+@font-face {
+	font-family: "ArsenicaRegular";
+	src: url("/assets/fonts/ArsenicaTrial-Regular.ttf");
+}
+
+@font-face {
+	font-family: "ArsenicaLight";
+	src: url("/assets/fonts/ArsenicaTrial-Light.ttf");
+}
+
+@font-face {
+	font-family: "ArsenicaBold";
+	src: url("/assets/fonts/ArsenicaTrial-Bold.ttf");
+}
+
+.image__landing-page {
+	display: flex;
+	position: absolute;
+	top: 8.5rem;
+	right: 0rem;
+	float: right;
+}
+
+.image__landing-page img {
+	width: 417px;
+	height: 585px;
+	filter: drop-shadow(-2px 8px 31px rgba(0, 0, 0, 0.19));
+}
+
+.tagline {
+	width: 40rem;
+	margin: 10rem 5rem;
+}
+
+.tagline h1 {
+	color: var(--text-color);
+
+	font-size: 3.75rem;
+	font-family: "ArsenicaLight";
+}
+
+.text--bolder {
+	font-family: "ArsenicaBold";
+}
+
+body {
+	margin: 0;
+	background-color: var(--primary-color);
+}
+
+/* LOGO */
+.navbar__main img {
+	width: 121px;
+	height: 42px;
+}
+
+/* Icons */
+.icon {
+	height: 20px;
+	width: 20px;
+	display: block;
+	background: url("/assets/icons/cart.svg");
+}
+
+/* Navigation  Bar */
+.navbar__main {
+	display: flex;
+	padding: 15px;
+	overflow: hidden;
+	align-items: center;
+	color: var(--text-color);
+	/* background-color: var(--primary-color); */
+}
+
+.navbar__main a {
+	text-align: center;
+	color: var(--text-color);
+	padding: 14px 40px;
+	text-decoration: none;
+
+	font-weight: 100;
+	font-size: 1rem;
+	font-family: var(--text-poppins);
+}
+
+.navbar__main a:hover {
+	color: #f4acb7;
+}
+
+/* Buttons */
+.btn-cart__main {
+	margin-left: auto;
+	width: 103px;
+	height: 34px;
+	border: none;
+
+	font-weight: 100;
+	font-size: 1rem;
+	font-family: var(--text-poppins);
+	color: var(--primary-color);
+	background-color: var(--primary-btn-color);
+}
+
+.btn-cart__main:hover {
+	cursor: pointer;
+	background-color: #006b59;
+}
+
+.btn__main {
+	position: absolute;
+	left: 80px;
+	top: 35rem;
+	margin-left: auto;
+	width: 204px;
+	height: 60px;
+	border: none;
+
+	font-weight: 100;
+	font-size: 1.5625rem;
+	font-family: var(--text-poppins);
+	color: var(--primary-color);
+	background-color: var(--primary-btn-color);
+}
+
+.btn__main:hover {
+	cursor: pointer;
+	background-color: #006b59;
+}
+
+.hero {
+	height: 30rem;
+}
+
+/*
+.our-services {
+	display: flex;
+	height: 130rem;
+	margin-top: 11.8rem;
+	background-color: #fff;
+}
+
+.heading__title-services {
+	color: var(--text-color);
+	padding-top: 10rem;
+	text-align: center;
+	font-size: 5rem;
+	font-family: "ArsenicaRegular";
+}
+
+.desc-services {
+	margin-left: auto;
+	margin-right: auto;
+	width: 865px;
+	color: var(--text-color);
+	text-align: center;
+	font-size: 1.6rem;
+	font-family: var(--text-poppins);
+}
+
+.sub-heading {
+	margin-left: 10rem;
+	margin-top: 10rem;
+
+	font-size: 1.575rem;
+	color: var(--secondary-text-color);
+	font-family: "ArsenicaLight";
+}
+
+.img__card {
+	margin-left: 10rem;
+	width: 18.75rem;
+	height: 18rem;
+
+	filter: drop-shadow(6px 6px 35px rgba(0, 0, 0, 0.15));
+}
+
+.card__container {
+	float: right;
+}
+
+.title__card {
+	margin-right: 50rem;
+	font-size: 5rem;
+	font-family: "ArsenicaRegular";
+}
+
+.card--right {
+}
+
+.card-img--right {
+	display: flex;
+	margin-left: 60rem;
+}
+
+.card__container--right {
+	margin-top: -20rem;
+	margin-left: 25rem;
+}
+
+.title__card--right {
+	font-size: 5rem;
+	font-family: "ArsenicaRegular";
+}
+
+hr {
+	margin-top: 10rem;
+	margin-bottom: 10rem;
+}
+
+.card-3 {
+	background-color: #f4acb7;
+}
+
+.card-3 h1 {
+	background-color: #005b4b;
+	top: -90rem;
+}
+*/
+
+.our-services {
+	display: flex;
+	padding: 5rem 10rem;
+	flex-direction: column;
+	justify-content: center;
+	background-color: beige;
+}
+
+.heading__services-title {
+	display: flex;
+	text-align: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.title__services {
+	font-size: 5rem;
+	color: var(--text-color);
+	font-family: "ArsenicaRegular";
+}
+
+.desc__services {
+	width: 70%;
+	font-size: 1.6rem;
+	color: var(--text-color);
+	font-family: var(--text-poppins);
+}
+
+.sub-heading {
+	margin-top: 5rem;
+	font-size: 1.575rem;
+	font-family: "ArsenicaLight";
+	color: var(--secondary-text-color);
+}
+
+.card {
+	margin-bottom: 5rem;
+}
+
+.card-1 {
+	background-color: #005b4b;
+}
+
+.card__container {
+	gap: 5rem;
+	display: flex;
+	flex-direction: row;
+}
+
+.card--right {
+	justify-content: flex-end;
+}
+
+.card__title {
+	font-size: 5rem;
+	font-family: "ArsenicaRegular";
+}
+
+.card__title--right {
+	font-size: 5rem;
+	text-align: right;
+	font-family: "ArsenicaRegular";
+}
+
+.img-card {
+	width: 20rem;
+	height: 20rem;
+	object-fit: cover;
+}
+
+.img--right {
+	order: 2;
+}
+
+.card-2 {
+	background-color: #175d50;
+}
