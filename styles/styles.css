@@ -271,6 +271,10 @@ hr {
 	justify-content: space-between;
 }
 
+.card__products a {
+	text-decoration: none;
+}
+
 .card__container--col {
 	flex-direction: column;
 }
@@ -465,16 +469,16 @@ footer hr {
 /* PRODUCTS PAGE */
 header {
 	display: flex;
-	height: 20rem;
+	height: 17rem;
 	text-align: center;
 	justify-content: center;
 
 	align-content: center;
-	background-color: #006b59;
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 98.875rem 65.9375rem;
-	background-image: url(/assets/images/products-cover.jpg);
+
+	background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(/assets/images/products-cover.jpg);
 }
 
 header h1 {
@@ -484,4 +488,19 @@ header h1 {
 	font-family: "ArsenicaRegular";
 
 	text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.prdcts-container {
+	display: flex;
+	padding: 5rem 3rem;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.card-container__products {
+	gap: 6rem;
+	display: flex;
+	min-width: 50%;
+	flex-wrap: wrap;
+	justify-content: flex-start;
 }
