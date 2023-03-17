@@ -493,6 +493,7 @@ header h1 {
 .prdcts-container {
 	display: flex;
 	padding: 5rem 3rem;
+	background-color: #fff;
 	flex-direction: column;
 	justify-content: center;
 }
@@ -503,4 +504,9 @@ header h1 {
 	min-width: 50%;
 	flex-wrap: wrap;
 	justify-content: flex-start;
+}
+
+.services-shrt__container {
+	height: 27.625rem;
+	background-color: var(--primary-color);
 }
